@@ -12,6 +12,10 @@ gem 'puma', '~> 3.7'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 
+group :production do
+  gem 'pg'
+end
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
