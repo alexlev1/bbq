@@ -8,6 +8,7 @@ end
 gem 'rails', '~> 5.1.5'
 gem 'devise'
 gem 'devise-i18n'
+gem 'rails-i18n'
 gem 'russian'
 
 gem 'twitter-bootstrap-rails'

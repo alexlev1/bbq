@@ -24,3 +24,7 @@ ru:
   app:
     name: 'Шашлыки'
     company: 'Шашлычных дел мастер'
+  errors:
+    one: '%{count} ошибка'
+    few: '%{count} ошибки'
+    many: '%{count} ошибок'
