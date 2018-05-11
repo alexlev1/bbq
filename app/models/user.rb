@@ -13,6 +13,8 @@ class User < ApplicationRecord
   # При регистрации пользователя подхватываем его данные, если уже была анонимная активность на сайте
   after_commit :link_subscriptions, on: :create
 
+  mount_uploader :avatar, AvatarUploader
+
   private
 
   def set_name

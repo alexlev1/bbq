@@ -15,6 +15,8 @@ gem 'twitter-bootstrap-rails'
 gem 'puma', '~> 3.7'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
+gem 'carrierwave'
+gem 'rmagick'
 
 group :production do
   gem 'pg'
