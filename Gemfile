@@ -17,6 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'carrierwave'
 gem 'rmagick'
+gem 'fog-aws'
 
 group :production do
   gem 'pg'
