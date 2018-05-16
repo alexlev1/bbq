@@ -3,6 +3,9 @@ ru:
     models:
       user: 'Пользователь'
       event: 'Событие'
+      subscription: 'Подписка'
+      comment: 'Комментарий'
+      photo: 'Фотография'
     attributes:
       user:
         email: 'Email'
@@ -21,6 +24,8 @@ ru:
       subscription:
         user_email: 'Email пользователя'
         user_name: 'Имя пользователя'
+      photo:
+        photo: 'Фотография'
   controllers:
     events:
       created: 'Событие успешно создано'
