@@ -26,3 +26,8 @@
   color: #468847;
   text-align: left;
 }
+
+.panel-body {
+  min-width: 300px;
+  max-width: 400px;
+}
