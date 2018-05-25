@@ -18,6 +18,7 @@ class ApplicationController < ActionController::Base
   end
 
   def user_exist?(subscription)
-    subscription.user_email != User.find_by(email: :user_email)
+    email = subscription.user_email
+    email != User.find_by(email: :user_email) && !user_signed_in?
   end
 end
