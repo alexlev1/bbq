@@ -16,9 +16,4 @@ class ApplicationController < ActionController::Base
     user_signed_in? &&
       (model.user == current_user || (model.try(:event).present? && model.event.user == current_user))
   end
-
-  def user_exist?(subscription)
-    email = subscription.user_email
-    email != User.find_by(email: :user_email) && !user_signed_in?
-  end
 end

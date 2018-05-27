@@ -8,8 +8,6 @@ class SubscriptionsController < ApplicationController
 
     if current_user_can_edit?(@event)
       redirect_to @event, notice: I18n.t('controllers.subscription.author')
-    elsif user_exist?(@new_subscription)
-      redirect_to @event, notice: I18n.t('controllers.subscription.user_alredy_exist')
     elsif @new_subscription.save
       EventMailer.subscription(@event, @new_subscription).deliver_now
       redirect_to @event, notice: I18n.t('controllers.subscription.created')
