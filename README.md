@@ -1,24 +1,20 @@
-# README
+# "BBQ" - приложение для организации событий по поеданию шашлыков.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Учебное приложение для "Хорошего программиста".
 
-Things you may want to cover:
+Написано на Rails 5.1.5
 
-* Ruby version
+### Реализовано:
+- Регистрация, аутентификация и восстановление пароля пользователя.
+- Редактирование профиля пользователя, возможность видеть организованные им события.
+- Создание, редактирование и удаление событий, а также модерирование их авторами.
+- Подписка пользователей на открытые и закрытые события.
+- Возможность оставлять комментарии к событию.
+- Загрузка аватаров и фотографий для профиля событий с хранением изображений на AWS.
+- Рассылка уведомлений на почту всем зарегистрированным участникам события при подписке нового участника или изменения фото события.
 
-* System dependencies
+Посмотреть как приложение работает на Heroku:
+https://bbqmaster.herokuapp.com/
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Автор:
+[Александр Левашов](https://alevashov.ru/)
