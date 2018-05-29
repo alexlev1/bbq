@@ -76,6 +76,13 @@
           </div>
         </div>
       <% end %>
+      <div class="event-map">
+        <h4>Где это будет:</h4>
+        <div id="map"
+             data-address='<%= @event.address %>'
+             style="width: 100%; height: 200px">
+        </div>
+      </div>
     </div>
   </div>
 </div>
